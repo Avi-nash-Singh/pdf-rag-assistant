@@ -42,10 +42,10 @@ A Retrieval-Augmented Generation (RAG) application that lets users upload PDF do
 ## Project Structure
 
 ```text
-|
-├── evaluation
-|   ├── eval-dataset.js    
-|   └── eval.js
+pdf-rag-assistant/
+├── evaluation/
+│   ├── eval-dataset.js
+│   └── eval.js
 ├── server.js
 ├── ingest.js
 ├── rag.js
@@ -57,7 +57,7 @@ A Retrieval-Augmented Generation (RAG) application that lets users upload PDF do
 └── README.md
 ```
 
-The local `uploads/` and `data/` directories are created or used by the application and should not contain private files in the public repository.
+The local `uploads/` has to be created for docs upload and `data/` for the lancedb.
 
 ## Prerequisites
 
