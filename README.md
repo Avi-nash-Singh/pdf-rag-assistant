@@ -42,7 +42,7 @@ A Retrieval-Augmented Generation (RAG) application that lets users upload PDF do
 ## Project Structure
 
 ```text
-pdf-rag-assistant/
+|
 ├── evaluation
 |   ├── eval-dataset.js    
 |   └── eval.js
